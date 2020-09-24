@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Tabs,Tab}from 'react-mdl';
+import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardText,CardActions,Button,CardMenu}from 'react-mdl';
+
 
 export default class Projects extends Component {
     constructor(props){
@@ -8,7 +9,16 @@ export default class Projects extends Component {
     }
     toggleCategories(){
         if(this.state.activeTab===0){
-         return(<div><h1>This is React</h1></div>)
+         return(<Card shadow={5} style={{width:'450',margin:'auto'}}>
+             <CardTitle style={{color:'#fff',height:'176px',background:'url(https://img.icons8.com/clouds/2x/react.png)center/cover'}}>React Proyect</CardTitle>
+             <CardText></CardText>
+             <CardActions border>
+                 <Button colored>Github</Button>
+                 <Button colored>CodePen</Button>
+                 <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu></CardMenu>
+         </Card>)
 
         }else if(this.state.activeTab ===1)
        return (<div><h1>This is Angular</h1></div>)
@@ -31,7 +41,12 @@ export default class Projects extends Component {
                  
                 </Tabs>
                 <section className= 'project-grid'>
-                   {this.toggleCategories()}
+                    <Grid className='proyect-grid'>
+                        <Cell col={12}>
+                       <div>{this.toggleCategories()}</div>
+                     </Cell>
+                   </Grid>
+                  
                 </section>
                 
             </div>
