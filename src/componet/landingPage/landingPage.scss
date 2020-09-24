@@ -1,23 +1,30 @@
 .banner-text{
-    background-color: rgb(230, 208, 208);
-    opacity: .8;
+    position: fixed;
+    text-align: center;
+    // background-color: rgb(64, 64, 68);
+    opacity: .9;
     width: 75%;
     margin: auto;
-    border-radius: 10px ;
-
+    border-radius: 100px ;
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(45, 117, 146)
 }
-
-ba
 .picture{
     width: 250px;
     height: 20rem;
-    
     border-radius: 200px;
+    margin: 15px;
 }
  
 .name{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
+   
+}
+.name:hover{
+ color: rgb(104, 4, 4)
 }
 .line{
     border-top: 5px dotted white;
@@ -29,4 +36,25 @@ ba
     color: white;
     font-size: 25px;
     padding: 1rem;
+}
+.socials-liks{
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.socials-liks i{
+color : white;
+font-size: 5em;
+
+}
+.link:link{
+    color: green;
+}
+.link:active{
+    color:green;
+}
+.link:visited {
+    color: #00FF00;
 }

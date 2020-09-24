@@ -14,7 +14,7 @@ import Aboutme from './componet/aboutMe/aboutme';
        <div>
          <div className="demo-big-content">
     <Layout className='header-styles' >
-        <Header className='bg-light-blue  head' title="Barbaro Reyes " scroll>
+        <Header className='bg-light-blue  head' title="Menu " scroll>
             <Navigation>
                 < Link to ="/aboutMe">AboutMe</Link>
                 < Link to ="/resume">Resume</Link>
