@@ -12,7 +12,7 @@ export default function Main() {
         <div>
             <Switch>
                 <Route exact  path='/landingPage' component ={LandingPage} />
-                <Route exact  path='/aboutMe' component ={AboutMe} />
+                <Route exact  path='/' component ={AboutMe} />
                 <Route exact  path='/' component ={Contact} />
                 <Route exact  path='/' component ={Proyect} />
                 <Route exact  path='/' component ={Resume} />

@@ -1,10 +1,11 @@
 import React from 'react';
 
+import './aboutMe.scss'
 
 export default function Aboutme() {
     return (
-        <div >
-            <img src='./work.jpg' alt=''/>
-        </div>
+        <section>
+        
+        </section>
     )
 }
