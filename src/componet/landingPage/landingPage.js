@@ -24,12 +24,12 @@ export default class landingPage extends Component {
                                      <i className=" fab fa-linkedin"></i>
                                     </a>
                                       {/* Gihub */}
-                                      <a href="http://google.com" rel='noopener noreferrer' target='_black'>
-                                      <i className="fab fa-github-square"></i>
+                                      <a className ='link' href="https://github.com/barbaroreyes" rel='noopener noreferrer' target='_black'>
+                                      <i className=" link fab fa-github-square"></i>
                                     </a>
                                       {/* linkedIn */}
-                                      <a href="http://google.com" rel='noopener noreferrer' target='_black'>
-                                      <i className="fab fa-facebook-square"></i>
+                                      <a  className ='link'href="http://google.com" rel='noopener noreferrer' target='_black'>
+                                      <i className="  fab fa-facebook-square"></i>
                                     </a>
 
                          </div>

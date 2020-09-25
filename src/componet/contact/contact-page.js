@@ -43,7 +43,7 @@ import{Grid,Cell,ListItem,List,ListItemContent} from 'react-mdl'
                             <ListItem>
                                 <ListItemContent 
                                  style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                 <i className=" fab fa-linkedin">https://www.linkedin.com/in/barbaro-reyes-b023aa1a7</i>
+                                 <i className=" fab fa-linkedin">https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/</i>
                                 </ListItemContent>
                             </ListItem>
                             <div className='socials-liks'>
@@ -52,7 +52,7 @@ import{Grid,Cell,ListItem,List,ListItemContent} from 'react-mdl'
                                      <i className=" fab fa-linkedin"></i>
                                     </a>
                                       {/* Gihub */}
-                                      <a href="http://google.com" rel='noopener noreferrer' target='_black'>
+                                      <a href="https://github.com/barbaroreyes" rel='noopener noreferrer' target='_black'>
                                       <i className="fab fa-github-square"></i>
                                     </a>
                                     
