@@ -43,7 +43,7 @@
     margin: auto;
 }
 
-.socials-liks i{
+.socials-liks a{
 color : white;
 font-size: 5em;
 
@@ -52,8 +52,8 @@ font-size: 5em;
     color: green;
 }
 .link:active{
-    color:green;
+    color:rgb(190, 224, 190);
 }
 .link:visited {
-    color: #00FF00;
+    color: rgb(8, 16, 90);
 }
