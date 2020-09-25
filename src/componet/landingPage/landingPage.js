@@ -20,18 +20,17 @@ export default class landingPage extends Component {
                           <p className='parraph'><i class="fab fa-html5"></i>HTML/CSS<i className=" fab fa-css3-alt"></i>|JavaScript<i class="fab fa-node-js"></i>|React-Redux<i class="fab fa-react"></i></p>
                           <div className='socials-liks'>
                               {/* linkedIn */}
-                          <a  className ='link' href="http://google.com" rel='noopener noreferrer' target='_black'>
-                          
-                            <i className=" fab fa-linkedin"></i>
-                          </a>
-                            {/* Gihub */}
-                            <a href="http://google.com" rel='noopener noreferrer' target='_black'>
-                            <i className="fab fa-github-square"></i>
-                          </a>
-                            {/* linkedIn */}
-                            <a href="http://google.com" rel='noopener noreferrer' target='_black'>
-                            <i className="fab fa-facebook-square"></i>
-                          </a>
+                                    <a  className ='link' href="http://google.com" rel='noopener noreferrer' target='_black'>
+                                     <i className=" fab fa-linkedin"></i>
+                                    </a>
+                                      {/* Gihub */}
+                                      <a href="http://google.com" rel='noopener noreferrer' target='_black'>
+                                      <i className="fab fa-github-square"></i>
+                                    </a>
+                                      {/* linkedIn */}
+                                      <a href="http://google.com" rel='noopener noreferrer' target='_black'>
+                                      <i className="fab fa-facebook-square"></i>
+                                    </a>
 
                          </div>
                         </div>
