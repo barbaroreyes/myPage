@@ -5,7 +5,6 @@ import AboutMe  from '../about/aboutMe';
 import  Contact from '../contact/contact-page';
 import Projects from '../projects/projects';
 import Resume from '../resume/resume';
-import Portafolio from '../portafolio/portafolio'
 
 const Main =() => {
     return (
@@ -16,7 +15,7 @@ const Main =() => {
                 <Route        path='/contact'      component = {Contact}/>
                 <Route        path='/projects'     component = {Projects}/>
                 <Route        path='/resume'       component = {Resume}/>
-                <Route        path='/portafolio'   component = {Portafolio}/>
+               
               </Switch>
         </div>
     )

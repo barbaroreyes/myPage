@@ -19,7 +19,7 @@ import Main from './componet/MAin/main';
             <Navigation>
                 < Link to ="/aboutMe">AboutMe</Link>
                 < Link to ="/resume">Resume</Link>
-                < Link to ="/portafolio">Portafolio</Link>
+                
                 < Link to ="/contact">Contact</Link>
                 < Link to ="/projects">Proyects</Link>
             </Navigation>
@@ -28,7 +28,7 @@ import Main from './componet/MAin/main';
             <Navigation className= 'header-styles'>
             < Link to ="/aboutMe">AboutMe</Link>
                 < Link to ="/resume">Resume</Link>
-                < Link to ="/portafolio">Portafolio</Link>
+                
                 < Link to ="/contact">Contact</Link>
                 < Link to ="/projects">Proyects</Link>
             </Navigation>
