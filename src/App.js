@@ -3,8 +3,8 @@ import './App.css';
 import{Layout,Header,Navigation,Drawer,Content}from 'react-mdl';
 import {Link}from 'react-router-dom'
 import Main from './componet/MAin/main';
-import Aboutme from './componet/aboutMe/aboutme';
-// import Particles from 'react-particles-js';
+
+
 
 
  
@@ -25,18 +25,18 @@ import Aboutme from './componet/aboutMe/aboutme';
         </Header>
         <Drawer  className ='bg-grey' title="">
             <Navigation className= 'header-styles'>
-            < Link to ="/">AboutMe</Link>
-                < Link className='' to ="/">Resume</Link>
-                < Link to ="/">Portafolio</Link>
-                < Link to ="/">Contact</Link>
-                < Link to ="/">Proyects</Link>
+            < Link to ="/aboutMe">AboutMe</Link>
+                < Link to ="/resume">Resume</Link>
+                < Link to ="/portafolio">Portafolio</Link>
+                < Link to ="/contact">Contact</Link>
+                < Link to ="/projects">Proyects</Link>
             </Navigation>
         </Drawer>
         <Content>
             <div className="page-content" />
-            {/* <Particles/> */}
+            
             <Main/>
-            <Aboutme/>
+            
         </Content>
     </Layout>
 </div>
