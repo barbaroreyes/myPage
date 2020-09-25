@@ -17,6 +17,7 @@ import Main from './componet/MAin/main';
     <Layout className='header-styles' >
         <Header className='bg-light-blue  head' title="Menu " scroll>
             <Navigation>
+                < Link to ="/">Home</Link>
                 < Link to ="/aboutMe">AboutMe</Link>
                 < Link to ="/resume">Resume</Link>
                 < Link to ="/contact">Contact</Link>
@@ -25,7 +26,9 @@ import Main from './componet/MAin/main';
         </Header>
         <Drawer  className ='bg-grey' title="">
             <Navigation className= 'header-styles'>
-            < Link to ="/aboutMe">AboutMe</Link>
+              
+                < Link to ="/">Home</Link>
+                < Link to ="/aboutMe">AboutMe</Link>
                 < Link to ="/resume">Resume</Link>
                 < Link to ="/contact">Contact</Link>
                 < Link to ="/projects">Proyects</Link>
