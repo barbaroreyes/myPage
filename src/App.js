@@ -19,7 +19,6 @@ import Main from './componet/MAin/main';
             <Navigation>
                 < Link to ="/aboutMe">AboutMe</Link>
                 < Link to ="/resume">Resume</Link>
-                
                 < Link to ="/contact">Contact</Link>
                 < Link to ="/projects">Proyects</Link>
             </Navigation>
@@ -28,18 +27,17 @@ import Main from './componet/MAin/main';
             <Navigation className= 'header-styles'>
             < Link to ="/aboutMe">AboutMe</Link>
                 < Link to ="/resume">Resume</Link>
-                
                 < Link to ="/contact">Contact</Link>
                 < Link to ="/projects">Proyects</Link>
             </Navigation>
         </Drawer>
         <Content>
             <div className="page-content" />
-                   <Main/>
+            <Main/>
         </Content>
     </Layout>
-</div>
-       </div>
+           </div>
+      </div>
      )
    }
  }
