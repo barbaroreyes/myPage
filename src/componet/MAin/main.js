@@ -2,7 +2,7 @@ import React from 'react';
 import {Switch,Route} from 'react-router-dom';
 import LandingPage from '../landingPage/landingPage';
 import About  from '../about/aboutMe';
-import  Contact from '../contact/index';
+import  Contact from '../contact/contact-page';
 import Projects from '../projects/projects';
 import Resume from '../resume/resume';
 import Portafolio from '../portafolio/portafolio'
