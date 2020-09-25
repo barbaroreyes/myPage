@@ -10,15 +10,15 @@ export default class Projects extends Component {
     toggleCategories(){
         if(this.state.activeTab===0){
          return(<Card shadow={5} style={{width:'450',margin:'auto'}}>
-             <CardTitle style={{color:'#fff',height:'176px',background:'url(https://img-a.udemycdn.com/course/750x422/1199058_8435_3.jpg)center/cover'}}></CardTitle>
-             <CardText></CardText>
-             <CardActions border>
+               <CardTitle style={{color:'#fff',height:'176px',background:'url(https://img-a.udemycdn.com/course/750x422/1199058_8435_3.jpg)center/cover'}}></CardTitle>
+               <CardText className='tc'>Project Description</CardText>
+              <CardActions border>
                  <Button colored>Github</Button>
                  <Button colored>CodePen</Button>
                  <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu></CardMenu>
-         </Card>)
+             </CardActions>
+             <CardMenu></CardMenu>
+           </Card>)
 
         }else if(this.state.activeTab ===1)
        return (<div><h1>This is Angular</h1></div>)
@@ -34,20 +34,18 @@ export default class Projects extends Component {
         return (
             <div className='category-tabs'>
                 <Tabs activeTab ={this.state.activeTab} onChange={(tabId)=> this.setState({activeTab:tabId})} ripple>
+                <Tab>JavaScript</Tab>
                     <Tab>React</Tab>
                     <Tab>Angular</Tab>
                     <Tab>ViuJs</Tab>
                     <Tab>MongoDB</Tab>
-                    <Tab>JavaScript</Tab>
-                 
                 </Tabs>
-                <section className= 'project-grid'>
-                    <Grid className='proyect-grid'>
-                        <Cell col={12}>
-                       <div>{this.toggleCategories()}</div>
-                     </Cell>
-                   </Grid>
-                  
+            <section className= 'project-grid'>
+                  <Grid className='proyect-grid'>
+                         <Cell col={12}>
+                         <div>{this.toggleCategories()}</div>
+                         </Cell>
+                    </Grid>                 
                 </section>
                 
             </div>
