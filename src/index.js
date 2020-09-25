@@ -8,11 +8,12 @@ import 'react-mdl/extra/material.js';
 import 'tachyons';
 import {BrowserRouter} from 'react-router-dom';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
-</BrowserRouter>
+        <App/>
+   </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

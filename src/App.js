@@ -7,6 +7,7 @@ import Main from './componet/MAin/main';
 
 
 
+
  
  export default class App extends Component {
    render() {
@@ -34,9 +35,7 @@ import Main from './componet/MAin/main';
         </Drawer>
         <Content>
             <div className="page-content" />
-            
-            <Main/>
-            
+                   <Main/>
         </Content>
     </Layout>
 </div>
