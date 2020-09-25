@@ -11,12 +11,12 @@ export default function Main() {
     return (
         <div>
             <Switch>
-                <Route exact  path='/landingPage' component ={LandingPage} />
-                <Route exact  path='/' component ={AboutMe} />
-                <Route exact  path='/' component ={Contact} />
-                <Route exact  path='/projects' component ={Projects} />
-                <Route exact  path='/' component ={Resume} />
-                <Route exact  path='/' component ={Portafolio} />
+                <Route exact path='/landingPage' component ={LandingPage} />
+                <Route   path='/' component ={AboutMe} />
+                <Route   path='/' component ={Contact} />
+                <Route   path='/projects'  component ={Projects} />
+                <Route   path='/' component ={Resume} />
+                <Route   path='/' component ={Portafolio} />
                
             </Switch>
         </div>

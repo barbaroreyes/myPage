@@ -9,8 +9,8 @@ import {Grid,Cell}from 'react-mdl'
 export default class landingPage extends Component {
     render() {
         return (
-              <div>
-                  <Grid>
+              <div className='tc'>
+                  <Grid className=''>
                       <Cell col={12}>  
                         <div  className='banner-text '>
                         <h1 className='name grow shadow-5 dib'>Barbaro Reyes</h1> 
