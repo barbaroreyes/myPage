@@ -8,6 +8,7 @@ import Main from './componet/MAin/main';
 
 
 
+
  
  export default class App extends Component {
    render() {
@@ -37,6 +38,7 @@ import Main from './componet/MAin/main';
         <Content>
             <div className="page-content" />
             <Main/>
+            
         </Content>
     </Layout>
            </div>
