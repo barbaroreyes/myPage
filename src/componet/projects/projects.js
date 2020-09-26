@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardText,CardActions,Button}from 'react-mdl';
+import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardText,CardActions,Button,CardMenu}from 'react-mdl';
    
 
 
@@ -17,8 +17,11 @@ export default class Projects extends Component {
            <Card shadow={5} style={{width:'450',margin:'auto'}}>
                 <CardTitle style={{color:'#fff',height:'176px',background:'url(https://img-a.udemycdn.com/course/750x422/1199058_8435_3.jpg)center/cover'}}></CardTitle>
                 <CardText className='tc'>{}</CardText>
+                <CardMenu className='ma2'><a href='https://barbaroreyes.github.io/First-Responsive-WebsiteBarbaro/'>Firts REsponsive</a></CardMenu>
+                <CardMenu className='ma4'><a href='https://barbaroreyes.github.io/tablas/'>Tablas</a></CardMenu>
+               
                 <CardActions border>
-                   <Button colored>Github</Button>
+                   <Button colored><a href='https://github.com/barbaroreyes/First-Responsive-WebsiteBarbaro'>Github</a></Button>
                    <Button colored>CodePen</Button>
                    <Button colored>LiveDemo</Button>
                 </CardActions>
@@ -30,8 +33,10 @@ export default class Projects extends Component {
         <Card  shadow={5} style={{width:'450',margin:'auto'}}>
              <CardTitle style={{color:'#fff',height:'176px',background:'url(https://img.icons8.com/clouds/2x/react.png)center/cover'}}></CardTitle>
              <CardText className='tc'>{}</CardText>
+             <CardMenu className='ma2'><a href='https://final-robots.netlify.app/'>Robots Fiends</a></CardMenu>
+             <CardMenu className='ma4'><a href='https://barbaro-store.netlify.app/'>Ecomerce</a></CardMenu>
              <CardActions border>
-                <Button colored>Github</Button>
+             <Button colored><a href='https://github.com/barbaroreyes/finalRobot'>Github</a></Button>
                 <Button colored>CodePen</Button>
                 <Button colored>LiveDemo</Button>
              </CardActions>
