@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div>
             <footer>
-             <div>  <p className='map'>@barabritoThinkfull all rigth reserved</p></div>
+             <div>  <p className='map'>@barbaritoThinkfull All Rigth reserved</p></div>
                 
             </footer>
         </div>

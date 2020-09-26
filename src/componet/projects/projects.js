@@ -41,7 +41,7 @@ export default class Projects extends Component {
        else if (this.state.activeTab===2){
         return (<div>
             <Card  shadow={5} style={{width:'450',margin:'auto'}}>
-                 <CardTitle style={{color:'#fff',height:'176px',background:'url()center/cover'}}></CardTitle>
+                 <CardTitle style={{color:'#fff',height:'176px',background:'url(https://cdn01.alison-static.net/courses/1200/alison_courseware_intro_1200.jpg)center/cover'}}></CardTitle>
                  <CardText className='tc'>{}</CardText>
                  <CardActions border>
                     <Button colored>Github</Button>
@@ -51,10 +51,23 @@ export default class Projects extends Component {
              </Card>  
          </div>) 
             }
+            else if (this.state.activeTab===2){
+                return (<div>
+                    <Card  shadow={5} style={{width:'450',margin:'auto'}}>
+                         <CardTitle style={{color:'#fff',height:'176px',background:'url(https://cdn01.alison-static.net/courses/1200/alison_courseware_intro_1200.jpg)center/cover'}}></CardTitle>
+                         <CardText className='tc'>{}</CardText>
+                         <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>LiveDemo</Button>
+                         </CardActions>
+                     </Card>  
+                 </div>) 
+                    }
             else{
                 return(<div>
                     <Card  shadow={5} style={{width:'450',margin:'auto'}}>
-                         <CardTitle style={{color:'#fff',height:'176px',background:'url(https://img-a.udemycdn.com/course/750x422/1199058_8435_3.jpg)center/cover'}}></CardTitle>
+                         <CardTitle style={{color:'#fff',height:'176px',background:'url(https://techcommunity.microsoft.com/t5/image/serverpage/image-id/184300iC067819AE50300F4/image-size/medium?v=1.0&px=400)center/cover'}}></CardTitle>
                          <CardText className='tc'>{}</CardText>
                          <CardActions border>
                             <Button colored>Github</Button>
