@@ -17,7 +17,7 @@ import{Grid,Cell,ListItem,List,ListItemContent} from 'react-mdl'
                             alt='avatar'
                             style={{height:'250px'}}
                             />
-                            <div> <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, consequatur optio voluptate aspernatur ab modi soluta animi maiores similique debitis eius omnis, suscipit est placeat iusto recusandae nihil earum ex? Doloremque, eligendi. Adipisci expedita est, at deserunt eaque maxime nesciunt.</p></div>
+                            <div> <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>With a huge desire to bring smart ideas to the Digital World</p></div>
          </div>    
                         </Cell>
                    <Cell col={6}>
@@ -31,7 +31,7 @@ import{Grid,Cell,ListItem,List,ListItemContent} from 'react-mdl'
                             </ListItem>
                             <ListItem>
                                 <ListItemContent style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                <i class="fas fa-envelope-square">barbarotrabajo@gmail.com</i>
+                                <i class="fas fa-envelope-square"><email>barbarotrabajo@gmail.com</email></i>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
