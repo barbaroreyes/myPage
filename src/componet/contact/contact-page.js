@@ -31,19 +31,19 @@ import{Grid,Cell,ListItem,List,ListItemContent} from 'react-mdl'
                             </ListItem>
                             <ListItem>
                                 <ListItemContent style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                <i class="fas fa-envelope-square"><email>barbarotrabajo@gmail.com</email></i>
+                                <i class="fas fa-envelope-square"><a href='barbarotrabajo@gmail.com'>barbarotrabajo@gmail.com</a></i>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
                                 <ListItemContent 
                                  style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                <i class="fab fa-github">https://github.com/barbaroreyes</i>
+                                <i class="fab fa-github"><a href ='https://github.com/barbaroreyes'>https://github.com/barbaroreyes</a></i>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
                                 <ListItemContent 
                                  style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                 <i className=" fab fa-linkedin">https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/</i>
+                                 <i className=" link fab fa-linkedin"><a href='https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/'>https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/</a></i>
                                 </ListItemContent>
                             </ListItem>
                             <div className='socials-liks'>

@@ -21,9 +21,7 @@ export default class landingPage extends Component {
                          
                           <hr className='line'/>
                           <p className='parraph'><i class="fab fa-html5"></i>HTML/CSS<i className=" fab fa-css3-alt"></i>|JavaScript<i class="fab fa-node-js"></i>|React-Redux<i class="fab fa-react"></i>| <button className='grow btn' style={{backgroundColor:'turquesa'}} >< Link style={{backgroundColor:'',color:'grey'}} to ="/aboutMe">AboutMe</Link></button></p>
-                            <div>
-                               <img alt='' src='https://www.google.com/maps/vt/data=5P4ONVexKCVOBj0TGShKJUHHEh92mCYp-iiYNH_ToCyE8lC8bKwnonJSUN8d9dMOASkgYIV0qOpY3MUAayvO3A7tQNMsawDb5NRKT6lbg5B71CZnmDhT0aA1rBBk9vKekI1JNuqLmj1SQgfPUx0lvmqOPTcg8Z4V3WCHXdacXOuQsphQpEnVjuv7R1HRi1FcOCG1Xr1g7ryrq2hclzzfAMf3UakE-PxCA9l0RJ7kvrwB_KbL3ZEzIZg'/>
-                           </div>
+                            
                                 <h3>you just don't climb the mountain you never got to </h3>
                                       
                           <div className='socials-liks'>

@@ -12,11 +12,11 @@ import Main from './componet/MAin/main';
  
  export default class App extends Component {
    render() {
-     return (
+     return ( <main>
        <div>
          <div className="demo-big-content">
     <Layout className='header-styles' >
-        <Header className='bg-light-blue  head' title="Menu " scroll>
+        <Header className='bg-light-blue  head' title="Menu" scroll>
             <Navigation>
                 < Link to ="/">Home</Link>
                 < Link to ="/aboutMe">AboutMe</Link>
@@ -43,6 +43,7 @@ import Main from './componet/MAin/main';
     </Layout>
            </div>
       </div>
+      </main>
      )
    }
  }
