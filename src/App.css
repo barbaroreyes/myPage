@@ -1,25 +1,7 @@
-.header-styles{ 
-  background-color: linear-gradient(to left ,red ,yellow);
-  position: fixed;
-}
 
-.head{
-  color: black;
-  text-shadow: 2px 1px ;
-  font-weight: 300;
-}
-.head:hover{
-color:black;
-}
-.banner-text{
-  font-size: 15px;
-  font-weight: bold;
-  color:white
-}
-.grid_styles{
-  display: flex;
-}
+
 .nav{
   color: aliceblue;
   margin: 10px;
+  padding: 30px;
 }
