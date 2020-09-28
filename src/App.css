@@ -1,7 +1,24 @@
 
+.content{
+  background:linear-gradient(to left ,rgb(240, 122, 122) ,rgb(204, 214, 230));
+  display: flex;
+  flex-direction: column;
+   justify-content: space-around ;
+  align-items: center; 
+
+}
+nav{
+ margin: 10px;
+ padding: 10px;
+ 
+}
 
 .nav{
   color: aliceblue;
-  margin: 10px;
-  padding: 30px;
+  margin: 20px; 
+  text-align: center;
+  
+}
+.btn{
+  background: black;
 }
