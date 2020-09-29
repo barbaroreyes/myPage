@@ -21,7 +21,9 @@ import work from '../../work.jpg';
                         <ul>
                              <li>
                                 <article style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                <i className="fas fa-phone-square">(512)6086054</i></article>
+                                <i className="fas fa-phone-square">(512)6086054</i>
+                                <li><i class="fas fa-envelope-square"><a href='barbarotrabajo@gmail.com'><p><a href="mailto:barbarotrabajo@gmail.com?subject=Email%20Subject%20Here">Email Me</a></p></a></i></li>
+                                </article>
                             </li>
                             <li>
                                 <article style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
