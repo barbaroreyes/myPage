@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './landingPage.scss';
 import work from '../../work.jpg';
-import {Grid,Cell}from 'react-mdl';
+
 import {Link}from 'react-router-dom'
 import Footer from '../footer/footer';
 import Map from'../map/map'
@@ -13,13 +13,13 @@ export default class landingPage extends Component {
     render() {
         return (
               <div className='tc'>
-                  <Grid className=''>
-                      <Cell col={12}>  
+                  <div className=''>
+                      <section col={12}>  
                         <div  className='banner-text '>
                         <h1 className='name  dib'>Barbaro Reyes</h1> 
                           <img className='picture tc' alt ='' src={work}/>
                           <h1 className='name  dib'>Software Developer</h1> 
-                         
+                            <Map/>
                           <hr className='line'/>
                           <p className='parraph'><i class="fab fa-html5"></i>HTML/CSS<i className=" fab fa-css3-alt"></i>|JavaScript<i class="fab fa-node-js"></i>|React-Redux<i class="fab fa-react"></i>| <button className='grow btn' style={{backgroundColor:'turquesa'}} >< Link style={{backgroundColor:'',color:'grey'}} to ="/aboutMe">AboutMe</Link></button></p>
                             
@@ -35,8 +35,8 @@ export default class landingPage extends Component {
                                
                            </div>
                         </div>
-                      </Cell>
-                  </Grid>
+                      </section>
+                  </div>
                  
                   <Footer/>
               </div>
