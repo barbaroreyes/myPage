@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './landingPage.scss';
 import work from '../../work.jpg';
-
 import {Link}from 'react-router-dom'
 import Footer from '../footer/footer';
 import Map from'../map/map'
@@ -25,13 +24,13 @@ export default class landingPage extends Component {
                             
                                 <h3>you just don't climb the mountain you never got to </h3>
                                       
-                          <div className='socials-liks'>
+                           <div className='socials-liks'>
                                 {/* linkedIn */}
                                 <a className ='link' href="http://google.com" rel='noopener noreferrer' target='_black'><i className=" fab fa-linkedin"></i></a>
                                  {/* Gihub */}
                                  <a className ='link' href="https://github.com/barbaroreyes" rel='noopener noreferrer' target='_black'><i className=" link fab fa-github-square"></i></a>
                                  {/* linkedIn */}
-                               <a className ='link'href="http://google.com" rel='noopener noreferrer' target='_black'><i className="  fab fa-facebook-square"></i></a>
+                             <a className ='link'href="http://google.com" rel='noopener noreferrer' target='_black'><i className="  fab fa-facebook-square"></i></a>
                                
                            </div>
                         </div>
