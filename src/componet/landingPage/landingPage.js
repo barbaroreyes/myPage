@@ -16,7 +16,7 @@ export default class landingPage extends Component {
                       <section col={12}>  
                         <div  className='banner-text '>
                         <h1 className='name  dib'>Barbaro Reyes</h1> 
-                          <img className='picture tc' alt ='' src={work}/>
+                          <img className='picture ' alt ='' src={work}/>
                           <h1 className='name  dib'>Software Developer</h1> 
                             <Map/>
                           <hr className='line'/>
