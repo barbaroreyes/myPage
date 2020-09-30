@@ -10,7 +10,7 @@ import work from '../../work.jpg';
          <div className='contact-body'>
                             <div style={{display:'flex',flexDirection:'column'}}>
                             <h1 style={{marginLeft:'20px'}}>Barbaro Reyes</h1>
-                            <img className='pict' src={work} alt='avatar'style={{height:'350px',marginLeft:'10px'}}/>
+                            <img className='pict' src={work} alt='avatar'style={{height:'450px',marginLeft:'10px'}}/>
                              <p style={{width:'50%',margin:'auto',paddingTop:'1em'}}>With a huge desire to bring smart ideas to the Digital World</p>
                           </div>    
                    
