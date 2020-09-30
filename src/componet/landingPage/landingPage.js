@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './landingPage.scss';
+import './landingPage.css';
 import work from '../../work.jpg';
 import {Link}from 'react-router-dom'
 import Footer from '../footer/footer';

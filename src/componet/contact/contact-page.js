@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import{} from 'react-mdl';
-import './contact-style.scss';
+import './contact-style.css';
 import work from '../../work.jpg';
 
 
