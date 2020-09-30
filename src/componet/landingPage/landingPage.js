@@ -30,9 +30,8 @@ export default class landingPage extends Component {
                                  {/* Gihub */}
                                  <a className ='link' href="https://github.com/barbaroreyes" rel='noopener noreferrer' target='_black'><i className=" link fab fa-github-square"></i></a>
                                  {/* linkedIn */}
-                             <a className ='link'href="http://google.com" rel='noopener noreferrer' target='_black'><i className="  fab fa-facebook-square"></i></a>
-                               
-                           </div>
+                                <a className ='link'href="http://google.com" rel='noopener noreferrer' target='_black'><i className="  fab fa-facebook-square"></i></a>
+                          </div>
                         </div>
                       </section>
                   </div>
